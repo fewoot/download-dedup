@@ -1,0 +1,42 @@
+name: Feature request
+description: 建议新的标题规则、站点适配或界面改进
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先说明使用场景，而不是只给一个笼统的功能名。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你遇到的问题
+      description: 当前脚本在哪个场景下不够用？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你希望怎么解决
+      description: 越具体越好，最好给出标题样例或页面结构。
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: 标题样例
+      description: 可以提供“应该合并”和“应该分开”的标题各一两组。
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 备选方案
+      description: 你考虑过的其他做法，或者不希望出现的行为。
+    validations:
+      required: false

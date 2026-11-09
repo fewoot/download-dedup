@@ -1,0 +1,61 @@
+name: Bug report
+description: 报告脚本没有生效、计数不对或标题合并错误
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请尽量提供可复现的信息，不要粘贴账号、Cookie 或下载站登录凭据。
+
+  - type: input
+    id: site
+    attributes:
+      label: 网站地址
+      description: 出现问题的页面或站点域名。
+      placeholder: https://www.example.com/list.html
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnosis
+    attributes:
+      label: 本页标题识别结果
+      description: 点 Tampermonkey 菜单 →“检查本页标题识别”，把弹窗内容粘贴到这里。
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望的结果
+      description: 例如“这两个标题应该合并”或“应该显示数字 3”。
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 例如“没有数字”“两个都显示 1”“数字颜色不对”。
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: 浏览器和 Tampermonkey 版本
+      placeholder: Chrome 131 / Tampermonkey 5.3
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 我已经在 Tampermonkey 菜单中启用了当前站点
+          required: true
+        - label: 我知道第一次点击之前不会显示数字，且安装前的历史点击不会自动补录
+          required: true

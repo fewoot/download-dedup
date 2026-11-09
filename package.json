@@ -1,0 +1,20 @@
+{
+  "name": "download-dedup-userscript",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Tampermonkey userscript that remembers clicked download resources and shows a colored count before their titles.",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check download-dedup.user.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "tampermonkey",
+    "userscript",
+    "download",
+    "duplicate",
+    "title-matching"
+  ]
+}

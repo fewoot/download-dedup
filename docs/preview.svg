@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="下载站重复点击提醒效果预览">
+  <rect width="900" height="340" rx="18" fill="#f8fafc"/>
+  <rect x="1" y="1" width="898" height="338" rx="17" fill="none" stroke="#e2e8f0"/>
+
+  <text x="40" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="700" fill="#0f172a">下载站列表 · 效果预览</text>
+  <text x="40" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" fill="#64748b">标题前面的彩色数字，表示这个资源已经点进去过几次</text>
+
+  <g transform="translate(40, 88)">
+    <rect width="820" height="62" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect x="18" y="17" width="28" height="28" rx="14" fill="#2563eb"/>
+    <text x="32" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+    <text x="60" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" fill="#0f172a">blender教程</text>
+    <text x="60" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12" fill="#64748b">已看 3 次 · 最近 11-09 18:40</text>
+    <rect x="706" y="20" width="94" height="22" rx="11" fill="#eff6ff"/>
+    <text x="753" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#1d4ed8">同一资源</text>
+  </g>
+
+  <g transform="translate(40, 162)">
+    <rect width="820" height="62" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect x="18" y="17" width="28" height="28" rx="14" fill="#d97706"/>
+    <text x="32" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+    <text x="60" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" fill="#0f172a">blender教程（2）</text>
+    <text x="60" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12" fill="#64748b">第 2 集 · 独立记录</text>
+    <rect x="706" y="20" width="94" height="22" rx="11" fill="#fffbeb"/>
+    <text x="753" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#b45309">第 2 集</text>
+  </g>
+
+  <g transform="translate(40, 236)">
+    <rect width="820" height="62" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <rect x="18" y="17" width="28" height="28" rx="14" fill="#dc2626"/>
+    <text x="32" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="700" fill="#ffffff">8</text>
+    <text x="60" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" fill="#0f172a">blender教程 第3集</text>
+    <text x="60" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12" fill="#64748b">第 3 集 · 已看 8 次</text>
+    <rect x="706" y="20" width="94" height="22" rx="11" fill="#fef2f2"/>
+    <text x="753" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#b91c1c">第 3 集</text>
+  </g>
+
+  <text x="40" y="322" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11" fill="#94a3b8">数字只在点击后出现；安装前的历史点击无法自动补录。</text>
+</svg>
