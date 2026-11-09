@@ -191,6 +191,12 @@ node --check download-dedup.user.js
 
 GitHub Actions 会在 push 和 pull request 时执行同样的语法检查。
 
+## 发布到 GitHub
+
+这个仓库已经初始化好 `main` 分支和首个提交，可以直接用 GitHub Desktop 打开并发布。
+
+详细步骤见 [docs/PUBLISHING.md](docs/PUBLISHING.md)。
+
 ## 目录结构
 
 ```text
@@ -199,6 +205,7 @@ GitHub Actions 会在 push 和 pull request 时执行同样的语法检查。
 │   ├── ISSUE_TEMPLATE/
 │   └── workflows/check.yml
 ├── docs/
+│   ├── PUBLISHING.md
 │   └── preview.svg
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
